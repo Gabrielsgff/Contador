@@ -5,9 +5,8 @@ function contar() {
     let saida = document.getElementById('saida')
     // 
     if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        alert('ERRO')
+        alert('Digite todos os valores')
     } else {
-        alert('FOI')
         saida.innerHTML = `Contando: `
         let i = Number(inicio.value)
         let f = Number(fim.value)
